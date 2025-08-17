@@ -1,7 +1,7 @@
         :root {
             --primary-color: #6c63ff;
             --secondary-color: #4d44db;
-            --dark-color: #2a2a72;
+            --dark-color: #4343e6;
             --light-color: #f8f9fa;
             --accent-color: #ff6584;
         }
@@ -9,6 +9,18 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             overflow-x: hidden;
+        }
+
+        .forSale {
+            padding: 10px;
+            min-height: 30vh;
+            background-color: #6c63ff;
+            color: #ffffff;
+        }
+
+        .forSale a {
+            color: #0ff240;
+
         }
 
         .navbar {
@@ -161,7 +173,7 @@
         }
 
         .code-function {
-            color: #dcdcaa;
+            color: #26de45;
         }
 
         .code-number {
