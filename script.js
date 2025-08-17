@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.querySelector('.afternic').href = `https://www.afternic.com/domain/${window.location.hostname}/`;
     document.querySelector('.namecheap').href = `https://www.namecheap.com/market/buynow/${window.location.hostname}/`;
+    document.querySelector('.brand-name').textContent = window.location.hostname;
     
     // navigation bar
     anime({
